@@ -176,10 +176,20 @@ namespace hackaton
             label.Dock = DockStyle.Fill;
             label.BackColor = Color.Transparent;
 
-            //amnon
-            if (i == 0) {
-                //pictureBox.Image = Image.FromFile("C:\\Users\\liork\\Downloads\\amnon-removebg-preview.png");
-            }
+            //chibo
+            if (i == 1) 
+                pictureBox.Image = Image.FromFile("pic\\chibo.png");
+            if (i == 2) 
+                pictureBox.Image = Image.FromFile("pic\\chibo.png");
+            if (i == 3) 
+                pictureBox.Image = Image.FromFile("pic\\chibo.png");
+            if (i == 4) 
+                pictureBox.Image = Image.FromFile("pic\\chibo.png");
+            if (i == 5) 
+                pictureBox.Image = Image.FromFile("pic\\chibo.png");
+            if (i == 6) 
+                pictureBox.Image = Image.FromFile("pic\\chibo.png");
+            
 
 
             pictureBox.Controls.Add(label);
